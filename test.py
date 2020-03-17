@@ -1,4 +1,5 @@
 def add(x, y, z):
+    print(2*x,2*y,2*z)
     return x + y + z
 
 
