@@ -10,5 +10,5 @@ x = 10
 y = 20
 z = 30
 sum = add(x, y, z)
-# pro = mul(x,y,z)
+pro = mul(x,y,z)
 print(sum, pro)
