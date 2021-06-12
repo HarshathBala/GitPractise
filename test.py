@@ -1,4 +1,4 @@
-import Nse
+from nsetools import Nse
 
 nse=Nse()
 
