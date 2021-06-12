@@ -1,14 +1,7 @@
-def add(x, y, z):
-    print(x,y,z)
-    return x + y + z
+from nsetools import Nse
 
+nse=Nse()
 
-def mul(x,y,z):
-    return x*y*z
+x=nse.get_quote("BATAINDIA")
 
-x = 10
-y = 20
-z = 30
-sum = add(x, y, z)
-pro = mul(x,y,z)
-print(sum, pro)
+print(x['open'])
